@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="results.html">
+        <div>
+            <label for="username">Username</label>
+            <input type="text" name="user" id="username" placeholder="type your name" value="Teja" disabled>
+        </div>
+        <div>
+            <label for="pass">Password</label>
+            <input type="password" name="password" id="pass" required>
+        </div>
+        <div>
+            <label for="age">Age</label>
+            <input type="number" name="age" id="age" min="1" max="150">
+        </div>
+        <div>
+            <label for="bd">Birth Date</label>
+            <input type="date" name="bd" id="bd">
+        </div>
+        <div>
+            <label>Red</label>
+            <input type="checkbox" name="red" id="red">
+            <label>Blue</label>
+            <input type="checkbox" name="blue" id="blue">
+        </div>
+        <div>
+            <label>Male</label>
+            <input type="radio" name="gender">
+            <label>Female</label>
+            <input type="radio" name="gender">
+            <label>No</label>
+            <input type="radio" name="gender">
+        </div>
+        <div>
+            <label>Food</label>
+            <select name="food" id="food" multiple>
+                <option value="">select</option>
+                <option value="food1">biryani</option>
+                <option value="food2">food2</option>
+                <option value="food3">food3</option>
+            </select>
+        </div>
+
+        <button type="submit">Submit</button>
+        <button disabled type="reset">reset</button>
+    </form>
+</body>
+</html>
